@@ -1,0 +1,200 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .productsBox {
+    // border: 1px solid red;
+
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-bottom: 10px;
+    p {
+      text-align: center;
+      // margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 30px;
+      margin-left: 1px;
+      // margin-bottom: 10px;
+    }
+  }
+
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .productsBox {
+    // border: 1px solid red;
+
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-bottom: 10px;
+    p {
+      text-align: center;
+      // margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 30px;
+      margin-left: 1px;
+      // margin-bottom: 10px;
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .productsBox {
+    // border: 1px solid red;
+
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-bottom: 10px;
+    p {
+      text-align: center;
+      // margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 30px;
+      margin-left: 50px;
+      // margin-bottom: 10px;
+    }
+  }
+}
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .productsBox {
+    // border: 1px solid red;
+
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-bottom: 10px;
+    p {
+      text-align: center;
+      // margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 30px;
+      margin-left: 50px;
+      // margin-bottom: 10px;
+    }
+  }
+}
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .productsBox {
+    // border: 1px solid red;
+
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-bottom: 10px;
+    p {
+      text-align: center;
+      // margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 30px;
+      // margin-left: 30px;
+      // margin-bottom: 10px;
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .productsBox {
+    // border: 1px solid red;
+    // height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 50px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .productsBox {
+    // border: 5px solid red;
+    height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 1px solid red;
+      height: 70px;
+      margin-left: 25px;
+
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .productsBox {
+    // border: 5px solid red;
+    height: 300px;
+    background-image: url('../../image/partner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+      color: white;
+    }
+
+    img {
+      // border: 5px solid red;
+      height: 100px;
+      margin-left: 45px;
+
+    }
+  }
+}

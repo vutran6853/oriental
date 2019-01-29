@@ -1,0 +1,314 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .carouseItemCaption {
+      border: 5px solid yellow;
+
+    }
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .carouseItemCaption {
+      border: 5px solid yellow;
+
+    }
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      // height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 1px solid black;
+        // height: 50px;
+        // width: 200px;
+        text-align: center;
+        // margin-left: 40vh;
+        // margin-top: 5vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .aboutUsSection {
+    // border: 5px solid red;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      // height: 500px;
+      background-color: #FFE4C4;
+      
+      h3 {
+        // border: 5px solid yellow;
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        margin-left: 40vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        // margin-left: 1vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .aboutUsSection {
+    // border: $boarder;
+
+    #carouseItemImage {
+      // border: 5px solid yellow;
+      height: 800px;
+      width: 100%;
+
+    }
+
+    .aboutUsBox {
+      // border: 5px solid yellow;
+      height: 200px;
+      background-color: #FFE4C4;
+
+      h3 {
+        // border: 5px solid yellow;
+        // height: 100px;
+        width: 200px;
+        text-align: center;
+        margin-left: 60vh;
+      }
+
+      p {
+        // border: 1px solid yellow;
+        // width: 300px;
+        // height: 200px;
+        margin-left: 5vh;
+        text-align: center;
+
+      }
+    }
+  }
+}
