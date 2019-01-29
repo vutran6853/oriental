@@ -1,0 +1,225 @@
+@import '../../globeSCSS.scss';
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 500px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      // margin-top: 20px;
+      text-align: center;
+    }
+    
+    .salonAddressBox {
+      margin-top: 0px !important;
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 500px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      // margin-top: 20px;
+      text-align: center;
+    }
+    
+    .salonAddressBox {
+      margin-top: 0px !important;
+    }
+  }
+}
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 500px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      // margin-top: 20px;
+      text-align: center;
+    }
+    
+    .salonAddressBox {
+      margin-top: 40px;
+    }
+  }
+}
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 500px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      // margin-top: 20px;
+      text-align: center;
+    }
+    
+    .salonAddressBox {
+      margin-top: 40px;
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 400px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 400px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .contactBox1 {
+    // border: 5px solid grey;
+    height: 150px;
+    background-color: #FFE4C4;
+
+    h4 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+
+  .contactBox2 {
+    // border: 5px solid green;
+    height: 400px;
+    background-image: url('../../image/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+      text-align: center;
+    }
+  }
+}

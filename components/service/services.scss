@@ -1,0 +1,283 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .servicesBox {
+    // border: 5px solid black;
+    // height: 420vh !important;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 2px solid black;
+        // float: left;
+        // height: 500px;
+        // width: 250px;
+        // margin-left: 2px;
+        margin-top: 10px;
+        // font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .servicesBox {
+    // border: 5px solid black;
+    // height: 420vh !important;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 2px solid black;
+        // float: left;
+        // height: 500px;
+        // width: 250px;
+        // margin-left: 2px;
+        margin-top: 10px;
+        // font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .servicesBox {
+    // border: 5px solid black;
+    height: 420vh !important;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 2px solid black;
+        // float: left;
+        // height: 500px;
+        // width: 250px;
+        // margin-left: 2px;
+        margin-top: 10px;
+        // font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .servicesBox {
+    // border: 5px solid black;
+    // height: 165vh;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 2px solid black;
+        // float: left;
+        // height: 500px;
+        // width: 250px;
+        // margin-left: 2px;
+        margin-top: 10px;
+        // font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .servicesBox {
+    // border: 5px solid black;
+    // height: 165vh;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 2px solid black;
+        // float: left;
+        // height: 500px;
+        // width: 250px;
+        // margin-left: 2px;
+        margin-top: 10px;
+        // font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .servicesBox {
+    // border: 5px solid black;
+    height: 165vh;
+
+    p {
+      // border: 5px solid black;
+      // text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 5px solid black;
+        float: left;
+        height: 500px;
+        width: 250px;
+        margin-left: 2px;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .servicesBox {
+    // border: 5px solid black;
+    height: 155vh;
+
+    p {
+      // border: 5px solid black;
+      text-align: center;
+    }
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+ 
+
+      #servicesCard {
+        // border: 5px solid black;
+        float: left;
+        height: 350px;
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      span {
+        // border: 5px solid black;
+        // float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .servicesBox {
+    // border: 5px solid black;
+    height: 120vh;
+
+    .servicesSection {
+      // border: 5px solid red;
+      text-align: center;
+
+      #servicesCard {
+        // border: 5px solid black;
+        float: left;
+        height: 360px;
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      span {
+        // border: 5px solid black;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        font-size: 50px
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 310px ;
+    width: 360px;
+    margin-left: 5px;
+
+    .mapCointainerInnterBox {
+      height: 300px !important;
+      width: 360px !important;
+    }
+  }
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 310px ;
+    width: 360px;
+    margin-left: 5px;
+
+    .mapCointainerInnterBox {
+      height: 300px !important;
+      width: 360px !important;
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 310px ;
+    width: 360px;
+    margin-left: 150px !important;
+
+    .mapCointainerInnterBox {
+      height: 300px !important;
+      width: 360px !important;
+    }
+  }
+}
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 310px ;
+    width: 360px;
+    margin-left: 150px !important;
+
+    .mapCointainerInnterBox {
+      height: 300px !important;
+      width: 360px !important;
+    }
+  }
+}
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 310px ;
+    width: 360px;
+    margin-left: 5px;
+
+    .mapCointainerInnterBox {
+      height: 300px !important;
+      width: 360px !important;
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 410px ;
+    width: 410px;
+    float: right;
+    margin-right: 10px;
+
+    .mapCointainerInnterBox {
+      height: 400px !important;
+      width: 400px !important;
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 410px ;
+    width: 410px;
+    float: right;
+    margin-right: 10px;
+
+    .mapCointainerInnterBox {
+      height: 400px !important;
+      width: 400px !important;
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .mapContainerBox {
+    // border: 1px solid red;
+    height: 410px ;
+    width: 410px;
+    float: right;
+    margin-right: 10px;
+
+    .mapCointainerInnterBox {
+      height: 400px !important;
+      width: 400px !important;
+    }
+  }
+}

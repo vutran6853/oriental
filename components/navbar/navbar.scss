@@ -1,0 +1,332 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .navBarBox {
+    // border: $boarder;
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+      
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px;
+        width: 355px !important;
+      }
+
+      button {
+        // border: $boarder;
+        margin-left: 5px !important;
+      }
+    }
+  }
+}
+
+
+@media (max-width: $Moblie411MinWidth) {
+  .navBarBox {
+    // border: $boarder;
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+      
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px;
+        width: 372px;
+      }
+
+      button {
+        // border: $boarder;
+        margin-left: 5px !important;
+      }
+    }
+  }
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .navBarBox {
+    // border: $boarder;
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+      
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px;
+        width: 372px;
+      }
+
+      button {
+        // border: $boarder;
+        height: 54px;
+        width: 88px;
+        // margin-left: 100px !important;
+        // float: right;
+        margin-left: 5px !important;
+      }
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .navBarBox {
+    // border: $boarder;
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px;
+        width: 372px;
+      }
+
+      button {
+        // border: $boarder;
+        margin-left: 5px !important;
+      }
+    }
+  }
+}
+
+
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .navBarBox {
+    // border: $boarder;
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+      
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px !important;
+        width: 260px !important;
+      }
+
+      button {
+        // border: $boarder;
+        height: 55px !important;
+        width: 96px !important;
+        // margin-left: 100px !important;
+        // float: right;
+      }
+    }
+  }
+}
+
+
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  .navBarBox {
+      // border: $boarder;
+
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+      font-size: 12px;
+
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        // margin-left: 20px;
+        height: 100px;
+        width: 372px;
+      }
+
+      button {
+        // border: $boarder;
+        // margin-left: 10px;
+        height: 54px;
+        width: 88px;
+      }
+    }
+  }
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .navBarBox {
+    // border: $boarder;
+  
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+    
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .navBarBox {
+    // border: $boarder;
+  
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+    
+    strong:hover {
+      color: blue;
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+
+      .logoImage {
+        // border: $boarder;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .navBarBox {
+    // border: $boarder;
+    // background-color: black;
+  
+    p {
+      color: lightcoral;
+      background-color: $backgroundColor;
+      margin-bottom: 0px;
+
+      .timeBox {
+        margin-left: 10px;
+      }
+    }
+    strong:hover {
+      color: blue;
+  
+    }
+
+    .navSeaction {
+      // border: $boarder;
+      background-color: $backgroundColor;
+    }
+  }
+}

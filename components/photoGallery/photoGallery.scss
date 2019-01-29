@@ -1,0 +1,154 @@
+@import '../../globeSCSS.scss';
+
+@media (max-width: 360px) {
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 10vh;
+    }
+  }
+}
+
+//// IphoneX Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie812MaxHeight){
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 10vh;
+    }
+  }
+}
+
+//// IphoneX landscape View
+@media (min-width: $Moblie812MinWidth) and (max-height: $Moblie375MaxHeight){
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 80vh;
+    }
+  }
+  
+}
+
+
+//// Iphone 6/7/8 Landscape View
+@media (min-width: $Moblie667MinWidth) and (max-height: $Moblie375MaxHeight){
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 60vh;
+    }
+  }
+}
+
+
+////  Iphone 6/7/8 Portrait
+@media (min-width: $Moblie375MinWidth) and (max-height: $Moblie667MaxHeight){
+  
+}
+
+//// Tablet sceen media css
+@media (min-width: $TabletMinWidth) and (max-width: $TabletMaxWidth) {
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      // text-align: center;
+      margin-right: 130px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 40vh;
+    }
+  }
+
+  
+}
+
+
+////  screen size 1024
+@media only screen and (min-width: $destop1024MinWidth) {
+  .photoGallerySection {
+        // border: 2px solid red;
+      background-color: lightcyan;
+        #carouseItemImage {
+          // border: 2px solid yellow;
+          height: 320px;
+          width: 240px;
+          margin-left: 50vh;
+
+        }
+  }
+}
+  
+////  screen size 1440
+@media only screen and (min-width: $destop1440MinWidth) {
+  .photoGallerySection {
+    // border: 2px solid red;
+  background-color: lightcyan;
+
+    h3 {
+      // border: 2px solid red;
+      // text-align: center;
+      // margin-right: 130px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #carouseItemImage {
+      // border: 2px solid yellow;
+      height: 320px;
+      width: 240px;
+      margin-left: 80vh;
+    }
+  }
+}
